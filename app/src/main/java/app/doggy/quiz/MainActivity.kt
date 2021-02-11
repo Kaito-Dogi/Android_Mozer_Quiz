@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         //クリックリスナを設定。
         startButton.setOnClickListener{
+
             //画面遷移。
             startActivity(quizIntent)
         }
